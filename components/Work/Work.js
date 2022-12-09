@@ -40,25 +40,7 @@ const Work = ({ clientWidth }) => {
   }, [targetSection, isActive]);
 
   const handleChange = (position) => {
-    const height = 0;
-    // height = inputRef.current.offsetTop - 15;
-    // checked[position] = true;
-    // switch (position) {
-    //   case 0:
-    //     height = inputRef.current.offsetTop - 115;
-    //     checked[position] = true;
-    //     break;
-    //   case 1:
-    //     height = inputRef.current.offsetTop - 55;
-    //     checked[position] = true;
-    //     break;
-    //   case 2:
-    //     height = inputRef.current.offsetTop;
-    //     checked[position] = true;
-    //     break;
-    //   default:
-    //     height = inputRef.current.offsetTop - 50;
-    // }
+    const height = inputRef.current.offsetTop - 15;
 
     setGunStyle({
       transform: "translateY(" + height + "px)",
