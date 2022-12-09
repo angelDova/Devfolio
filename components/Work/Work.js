@@ -40,9 +40,9 @@ const Work = ({ clientWidth }) => {
   }, [targetSection, isActive]);
 
   const handleChange = (position) => {
-    var height = 0;
-    height = inputRef.current.offsetTop - 15;
-    checked[position] = true;
+    const height = 0;
+    // height = inputRef.current.offsetTop - 15;
+    // checked[position] = true;
     // switch (position) {
     //   case 0:
     //     height = inputRef.current.offsetTop - 115;
