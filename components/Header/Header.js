@@ -16,11 +16,7 @@ const Header = ({ children }) => {
             />
           </a>
           <div className="outer-menu relative">
-<<<<<<< HEAD
             {/* <SoundBar /> */}
-=======
-            <SoundBar />
->>>>>>> dc3ce92c059ce36df9d2f92db20b01924ef7a0d5
             <input
               aria-labelledby="menu"
               className="checkbox-toggle link absolute top-0 right-0 w-6 h-6 opacity-0"
