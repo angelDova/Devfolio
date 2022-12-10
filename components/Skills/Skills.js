@@ -49,8 +49,11 @@ const Skills = () => {
               My Skills
             </h1>
             <h2 className="text-[1.65rem] font-medium md:max-w-lg w-full mt-2 seq">
-              I take responsibility in crafting an aesthetically pleasing user
-              experience, using modern frontend architecture.{" "}
+              Great things come from hard work and perserverance. No excuses .{" "}
+            </h2>
+            <h2 className="text-[1.65rem] font-medium md:max-w-lg w-full mt-2 seq text-gradient">
+              {" "}
+              - Kobe Bryant
             </h2>
           </div>
           <div className="mt-10">
