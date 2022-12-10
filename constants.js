@@ -2,7 +2,7 @@ export const METADATA = {
   title: "Portfolio | angelDova",
   description:
     "Angel Cordova is a Full Stack Developer from La Mirada, CA interested in crafting beautiful and functional applications.",
-  siteUrl: "https://shubhporwal.com/",
+  siteUrl: "https://angeldova.vercel.app/",
   twitterHandle: "@angeldova",
 };
 
@@ -32,7 +32,7 @@ export const MENULINKS = [
 export const TYPED_STRINGS = [
   "A pragmatic Full Stack Developer",
   "I build things for the web",
-  "I create aesthetic and modern apps",
+  "I create stunning, modern apps",
 ];
 
 export const SOCIAL_LINKS = [
