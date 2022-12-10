@@ -2,14 +2,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "start": "cross-env NODE_OPTIONS='--openssl-legacy-provider' start",
-    "build": "cross-env NODE_OPTIONS='--openssl-legacy-provider' build",
+    "build": "next build",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
     "bad-words": "^3.0.4",
-    "cross-env": "^7.0.3",
     "gsap": "^3.8.0",
     "lottie-web": "^5.8.1",
     "next": "latest",
