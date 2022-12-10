@@ -40,6 +40,7 @@ const Work = ({ clientWidth }) => {
   }, [targetSection, isActive]);
 
   const handleChange = (position) => {
+<<<<<<< HEAD
     const height = 0;
     // height = inputRef.current.offsetTop - 15;
     // checked[position] = true;
@@ -59,6 +60,9 @@ const Work = ({ clientWidth }) => {
     //   default:
     //     height = inputRef.current.offsetTop - 50;
     // }
+=======
+    const height = inputRef.current.offsetTop - 15;
+>>>>>>> dc3ce92c059ce36df9d2f92db20b01924ef7a0d5
 
     setGunStyle({
       transform: "translateY(" + height + "px)",
