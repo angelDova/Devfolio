@@ -144,7 +144,7 @@ export const WORK = [
     company: "Uber",
     title: "Driver",
     location: "La Mirada, CA",
-    range: "December 2019 - December 2022",
+    range: "December 2019 - December 2020",
     responsibilities: ["Drive customers to and from their desired locations."],
     url: "https://uber.com/",
   },
