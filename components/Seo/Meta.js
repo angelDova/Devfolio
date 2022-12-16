@@ -9,15 +9,15 @@ const Meta = ({ children }) => {
         <meta name="description" content={METADATA.description} />
         <meta
           name="keywords"
-          content="Shubh Porwal, Full Stack Developer, Software Developer, Software Engineer, Portfolio, Devfolio, Web Development, PDEU, Web Developer"
+          content="Angel Cordova, Full Stack Developer, Software Developer, Software Engineer, Portfolio, Devfolio, Web Development, Web Developer"
         />
         <meta name="robots" content="index, follow" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="English" />
-        <meta name="author" content="Shubh Porwal" />
+        <meta name="author" content="Angel Cordova" />
         <meta
           name="copyright"
-          content="All rights reserved, 2021. Shubh Porwal"
+          content="All rights reserved, 2022. Angel Cordova"
         />
         <meta httpEquiv="content-language" content="en" />
 
@@ -26,7 +26,10 @@ const Meta = ({ children }) => {
         <meta property="og:type" content="website" />
         <meta property="og:title" content={METADATA.title} />
         <meta property="og:description" content={METADATA.description} />
-        <meta property="og:image" content="https://res.cloudinary.com/dywdhyojt/image/upload/v1651299924/preview.png" />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/dlevkft30/image/upload/v1671226952/Screenshot_12_pdfiaa.png"
+        />
         <meta property="og:url" content={METADATA.siteUrl} />
         <meta property="og:site_name" content={METADATA.title} />
 
@@ -37,7 +40,10 @@ const Meta = ({ children }) => {
         <meta property="twitter:site" content={METADATA.twitterHandle} />
         <meta name="twitter:creator" content={METADATA.twitterHandle} />
         <meta property="twitter:url" content={METADATA.siteUrl} />
-        <meta property="twitter:image" content="https://res.cloudinary.com/dywdhyojt/image/upload/v1651299924/preview.png" />
+        <meta
+          property="twitter:image"
+          content="https://res.cloudinary.com/dywdhyojt/image/upload/v1651299924/preview.png"
+        />
 
         <link
           rel="apple-touch-icon"

@@ -71,7 +71,7 @@ export const SKILLS = {
     // "python",
     // "firebase",
     "moralis",
-    // "stripe",
+    "stripe",
     // "figma",
   ],
   librariesAndFrameworks: [
@@ -97,7 +97,16 @@ export const PROJECTS = [
     url: "https://filmpire-angel.netlify.app/",
     tech: ["react", "redux", "alan"],
   },
-
+  {
+    name: "Apple",
+    image: "/projects/apple-v2.png",
+    blurImage: "/projects/blur/apple-v2-blur.png",
+    description:
+      "My Version of Apple 💻 Web App Created With -Typescript, NextJS, Redux, Sanity.io, Stripe API, Tailwind CSS",
+    gradient: ["#000066", "#6699FF"],
+    url: "https://apple-v2.vercel.app/",
+    tech: ["typescript", "nextjs", "tailwindcss", "redux", "stripe"],
+  },
   {
     name: "Ebay",
     image: "/projects/ebay.png",
@@ -105,7 +114,7 @@ export const PROJECTS = [
     description: "Ebay NFT clone using NextJS + TailwindCSS ✍🏻",
     gradient: ["#FFA62E", "#EA4D2C"],
     url: "https://ebay-angeldova.vercel.app/",
-    tech: ["typescript", "react", "nextjs", "tailwindcss", "thirdweb"],
+    tech: ["typescript", "react", "nextjs", "tailwindcss"],
   },
   {
     name: "Gericht",
