@@ -42,7 +42,7 @@ const Meta = ({ children }) => {
         <meta property="twitter:url" content={METADATA.siteUrl} />
         <meta
           property="twitter:image"
-          content="https://res.cloudinary.com/dywdhyojt/image/upload/v1651299924/preview.png"
+          content="https://res.cloudinary.com/dlevkft30/image/upload/v1671226952/Screenshot_12_pdfiaa.png"
         />
 
         <link
