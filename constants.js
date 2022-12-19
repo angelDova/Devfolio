@@ -42,7 +42,7 @@ export const SOCIAL_LINKS = [
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/",
+    url: "https://www.linkedin.com/in/angeldova",
   },
   {
     name: "github",
@@ -54,7 +54,7 @@ export const SOCIAL_LINKS = [
   },
   {
     name: "twitter",
-    url: "https://twitter.com/",
+    url: "https://twitter.com/angelDova_",
   },
 ];
 
