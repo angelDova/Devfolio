@@ -30,7 +30,7 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "A pragmatic Full Stack Developer",
+  "A Full Stack Developer",
   "I build things for the web",
   "I create stunning, modern apps",
 ];
@@ -89,6 +89,15 @@ export const SKILLS = {
 
 export const PROJECTS = [
   {
+    name: "Linear",
+    image: "/projects/linear.png",
+    blurImage: "/projects/blur/linear-blur.png",
+    description: "Linear App using NextJS + Tailwind",
+    gradient: ["#000066", "#6699FF"],
+    url: "https://linear-rebuilt-angeldova.vercel.app/",
+    tech: ["typescript", "nextjs", "tailwindcss"],
+  },
+  {
     name: "Filmpire",
     image: "/projects/filmpire.png",
     blurImage: "/projects/blur/filmpire-blur.png",
@@ -96,6 +105,16 @@ export const PROJECTS = [
     gradient: ["#F14658", "#DC2537"],
     url: "https://filmpire-angel.netlify.app/",
     tech: ["react", "redux", "alan"],
+  },
+  {
+    name: "Blog",
+    image: "/projects/blog.png",
+    blurImage: "/projects/blur/blog-blur.png",
+    description:
+      "BLOG with Next.js 13 (Sanity v3, TypeScript, Tailwind CSS, Auth, CMS, Preview Mode) 🛏️",
+    gradient: ["#6699FF", "#7000ff"],
+    url: "https://blog-angeldova.vercel.app/",
+    tech: ["typescript", "sanity", "tailwindcss"],
   },
   {
     name: "Apple",
