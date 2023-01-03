@@ -164,7 +164,7 @@ export const WORK = [
     responsibilities: [
       "Led the company in the organization and structure of sales.",
       "Developed a customer first approach to every sale and transaction.",
-      "Led a team of 8 employees.",
+      "Led a team of 10 employees.",
     ],
     url: "https://google.com/",
   },
