@@ -61,7 +61,7 @@ const About1 = ({ clientHeight }) => {
             Skilled in building interactive, visually appealing websites and web
             applications. Committed to staying current with industry trends and
             best practices. Adept at collaborating with cross-functional teams
-            to deliver exceptional web solutions.{" "}
+            to deliver exceptional web solutions{" "}
           </span>
         </h1>
       </div>
