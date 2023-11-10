@@ -1,22 +1,33 @@
-const withPWA = require("next-pwa");
+const withPWA = require("next-pwa")({
+  dest: "public",
+  register: true,
+  skipWaiting: true,
+  disable: process.env.NODE_ENV === "development",
+});
 
-module.exports = withPWA({
-  // webpack: (config) => {
-  //   config.module.rules.push({
-  //     test: /\.mp3$/,
-  //     use: {
-  //       loader: "url-loader",
-  //     },
-  //   });
-  //   return config;
-  // },
+const nextConfig = withPWA({
+  // next config
+  webpack: (config) => {
+    config.module.rules.push({
+      test: /\.mp3$/,
+      use: {
+        loader: "url-loader",
+      },
+    });
+    return config;
+  },
   images: {
     domains: ["res.cloudinary.com"],
   },
-  pwa: {
-    dest: "public",
-    register: true,
-    skipWaiting: true,
-    disable: process.env.NODE_ENV === "development",
-  },
 });
+
+module.exports = nextConfig;
+
+// module.exports = withPWA({
+//   pwa: {
+//     dest: "public",
+//     register: true,
+//     skipWaiting: true,
+//     disable: process.env.NODE_ENV === "development",
+//   },
+// });
