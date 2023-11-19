@@ -89,6 +89,16 @@ export const SKILLS = {
 
 export const PROJECTS = [
   {
+    name: "Dovajitsu",
+    image: "/projects/dovajitsu.jpg",
+    blurImage: "/projects/blur/dovajitsu-blur.jpg",
+    description:
+      "JiuJitsu Website Using NextJS 13, React, Stripe, Mux, Prisma, Tailwind, MySQL",
+    gradient: ["#000066", "#6699FF"],
+    url: "https://dovajitsu.vercel.app/",
+    tech: ["typescript", "nextjs", "tailwindcss", "react", "stripe", "prisma"],
+  },
+  {
     name: "Linear",
     image: "/projects/linear.png",
     blurImage: "/projects/blur/linear-blur.png",
