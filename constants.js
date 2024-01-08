@@ -89,6 +89,16 @@ export const SKILLS = {
 
 export const PROJECTS = [
   {
+    name: "GameHub",
+    image: "/projects/gamehub.jpg",
+    blurImage: "/projects/blur/gamehub-blur.jpg",
+    description:
+      "Twitch Clone using Next.js 14, React, Prisma, Tailwind, MySQL",
+    gradient: ["#6699FF", "#7000ff"],
+    url: "https://game-hub-angeldova.vercel.app",
+    tech: ["typescript", "nextjs", "tailwindcss", "react"],
+  },
+  {
     name: "Dovajitsu",
     image: "/projects/dovajitsu.jpg",
     blurImage: "/projects/blur/dovajitsu-blur.jpg",
