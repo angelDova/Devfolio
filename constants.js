@@ -105,7 +105,7 @@ export const PROJECTS = [
     description:
       "JiuJitsu Website Using NextJS 13, React, Stripe, Mux, Prisma, Tailwind, MySQL",
     gradient: ["#000066", "#6699FF"],
-    url: "https://dovajitsu.vercel.app/",
+    url: "https://dovajitsu.vercel.app",
     tech: ["typescript", "nextjs", "tailwindcss", "react", "stripe", "prisma"],
   },
   {
