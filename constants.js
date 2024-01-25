@@ -89,7 +89,7 @@ export const SKILLS = {
 
 export const PROJECTS = [
   {
-    name: "GameHub",
+    name: "|GameHub|",
     image: "/projects/gamehub.jpg",
     blurImage: "/projects/blur/gamehub-blur.jpg",
     description: "Twitch Clone using NextJS 14, React, Prisma, Tailwind, MySQL",
