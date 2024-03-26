@@ -89,6 +89,15 @@ export const SKILLS = {
 
 export const PROJECTS = [
   {
+    name: "Lingo",
+    image: "/projects/lingo.jpeg",
+    blurImage: "/projects/blur/lingo.jpeg",
+    description: "Duolingo Clone With: ReactsJs, Nextjs, Tailwind CSS",
+    gradient: ["#142D46", "#2E4964"],
+    url: "https://angeldova-lingo.vercel.app/",
+    tech: ["react", "nextjs", "tailwindcss"],
+  },
+  {
     name: "-GameHub-",
     image: "/projects/gamehub.jpg",
     blurImage: "/projects/blur/gamehub-blur.jpg",
@@ -162,15 +171,6 @@ export const PROJECTS = [
     gradient: ["#000066", "#6699FF"],
     url: "https://gericht-angeldova.netlify.app/",
     tech: ["react", "chakra-ui", "alan"],
-  },
-  {
-    name: "Twitch",
-    image: "/projects/twitch.jpeg",
-    blurImage: "/projects/blur/twitch.jpeg",
-    description: "Twitch clone created with: ReactsJs, Nextjs, Tailwind CSS",
-    gradient: ["#142D46", "#2E4964"],
-    url: "https://twitch-angeldova.vercel.app/",
-    tech: ["react", "nextjs", "tailwindcss"],
   },
 ];
 
