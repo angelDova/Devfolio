@@ -107,6 +107,15 @@ export const PROJECTS = [
     tech: ["typescript", "nextjs", "tailwindcss", "react"],
   },
   {
+    name: "Audio Alchemy",
+    image: "/projects/audio-alchemy.jpg",
+    blurImage: "/projects/blur/audio-alchemy-blur.jpg",
+    description: "Musical Website Using NextJS 14, React,  Tailwind, ShadCn",
+    gradient: ["#000066", "#6699FF"],
+    url: "https://audio-alchemy.vercel.app",
+    tech: ["typescript", "nextjs", "tailwindcss", "react"],
+  },
+  {
     name: "Dovajitsu",
     image: "/projects/dovajitsu.jpg",
     blurImage: "/projects/blur/dovajitsu-blur.jpg",
